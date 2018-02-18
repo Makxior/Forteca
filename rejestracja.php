@@ -226,7 +226,7 @@
 					unset($_SESSION['fr_regulamin']);
 				}
 					?>/>
-					<a href="regulamin.php" target="_blank"> Akceptuję regulamin </a> 
+					<a href="regulamin.php" target="_blank"> Akceptuje regulamin </a> 
 			</label>
 			
 			<?php
