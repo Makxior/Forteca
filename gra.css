@@ -1,0 +1,20 @@
+body
+{
+	background-image:url("tlogra.png");
+}
+#logo
+{
+
+	margin-top:20px;	
+	text-align:center;
+	min-height:150px;
+	opacity:0.8;
+}
+#logo:hover
+{
+	opacity:1;
+}
+
+
+
+

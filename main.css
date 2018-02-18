@@ -1,0 +1,168 @@
+body
+{
+	background-image:url("tlo.png");
+}
+#logo
+{
+
+	margin-top:20px;	
+	text-align:center;
+	min-height:150px;
+	opacity:0.8;
+}
+#logo:hover
+{
+	opacity:1;
+}
+.link
+{
+	background-image:url("rejestracja.png");
+	height:55px;
+	width:800px;
+	font-weight: bold;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+    border: 2px solid;
+    border-radius: 25px;
+	opacity:0.85;
+}
+.link:hover
+{
+	opacity:1;
+	text-decoration:none;
+}
+a
+{
+	color:#fff;
+	font-size:30px;
+	text-decoration:none;
+	padding-top:5px;
+	letter-spacing:2px;
+	
+}
+#main
+{
+	width:1220px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	font-size:20px;
+}
+#pion
+{
+	padding-top:50px;
+	color:white;
+	background-image:url("logowanie.png");
+	float:left;
+	height:500px;
+	width:250px;
+	text-align:center;
+	border: 2px solid black;
+    border-radius: 20px;
+	opacity:0.85;
+}
+#pion:hover
+{
+	opacity:1;
+}
+#newsy
+{
+	padding-top:20px;
+	padding-left:10px;
+	background-image:url("newsy.png");
+	float:left;
+	height:500px;
+	width:600px;
+	border: 2px solid;
+    border-radius: 20px;
+	margin-left:5px;
+	margin-right:5px;
+	opacity:0.85;
+}
+a:hover
+{
+	opacity:1;
+	text-decoration:none;
+	color:darkblue;
+}
+#newsy:hover
+{
+	opacity:1;
+}
+#logowanie
+{
+	color:white;
+	padding-top:50px;
+	background-image:url("logowanie.png");
+	float:left;
+	height:500px;
+	width:250px;
+	text-align:center;
+	border: 2px solid black;
+    border-radius: 20px;
+	opacity:0.85;
+}
+#logowanie:hover
+{
+	opacity:1;
+}
+#stopka
+{
+	clear:both;
+	color:white;
+	background-color:black;
+	text-align:center;
+	border: 2px solid;
+    border-radius: 5px;
+	margin-top:150px;
+}
+#napis
+{
+	text-align:center;
+	letter-spacing:2px;
+	font-size:20px;
+}
+
+.error
+{
+color:red;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.przycisk
+{
+	width:180px;
+	height:30px;
+	font-size:16px;
+}
+#formularz
+{
+	margin-left:30%;
+	color: #CCEECC;
+	font-size:20px;
+	margin-top:20px;
+}
+#header
+{
+	margin: 30px 200px 20px;	
+}
+#zasady
+{
+	color:khaki;
+	margin: 30px 200px 20px;
+	font-size:30px;
+}
+input[type=checkbox]
+{
+  -ms-transform: scale(1.2); /* IE */
+  -moz-transform: scale(1.2); /* FF */
+  -webkit-transform: scale(1.2); /* Safari and Chrome */
+  -o-transform: scale(1.2); /* Opera */
+  padding: 10px;
+}
+
+
+
+
+
