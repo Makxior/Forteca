@@ -51,6 +51,9 @@
 	echo "Premium nieaktywne od: ".$roznica->format('%d dni, %h godz, %i min, %s sek');	
 	
 ?>
+<br/>
+proba sad sadsdadsadsuhsdauihdsauihds
+<?=$_SESSION['drewno'];?>
 
 </body>
 </html>
