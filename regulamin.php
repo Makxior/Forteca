@@ -37,7 +37,7 @@
 					świadczenie Usług przerwane – również w dowolnej chwili i bez podania przyczyn.
 				</li>
 			<h2>§ 3 Aplikacje </h2>
-			<strong>3.1</strong> Gry można pobrać bezpłatnie EE
+			<strong>3.1</strong> Gry można pobrać bezpłatnie FF
 			
 			<h2>§ 4 Nazwa</h2>
 			<li>
