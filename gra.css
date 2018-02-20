@@ -1,5 +1,6 @@
 body
 {
+	color:black;
 	background-image:url("tlogra.png");
 	background-repeat: no-repeat;
 	background-color:#D7C8B4;
@@ -15,6 +16,28 @@ body
 #logo:hover
 {
 	opacity:1;
+}
+#login
+{
+	margin-top:10px;
+	font-size:40px;
+	position:fixed;
+	left:35%;
+	font-weight:bold;
+}
+
+a
+{
+	color:#fff;
+	font-size:20px;
+	text-decoration:none;
+	letter-spacing:2px;
+	
+}
+a:hover
+{
+	text-decoration:none;
+	color:darkblue;
 }
 
 

@@ -20,10 +20,10 @@
 </head>
 
 <body>
-	<div class="login">
-		<?php
-			;
-		?>
+	<div id="login">
+	
+		Witaj <?=$_SESSION['user'];?><a href="logout.php">[Wyloguj się!]</a>
+	
 	</div>
 	
 <?php
@@ -52,7 +52,7 @@
 	
 ?>
 <br/>
-proba sad sadsdadsadsuhsdauihdsauihds
+
 <?=$_SESSION['drewno'];?>
 
 </body>
