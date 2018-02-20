@@ -22,38 +22,35 @@
 <body>
 	<div id="login">
 	
-		Witaj <?=$_SESSION['user'];?><a href="logout.php">[Wyloguj się!]</a>
+		<center>Witaj <?=$_SESSION['user'];?><a href="logout.php">	</a></center>
 	
 	</div>
-	
-<?php
-
-	echo "<p>Witaj ".$_SESSION['user'].'! [ <a href="logout.php">Wyloguj się!</a> ]</p>';
-	echo "<p><b>Drewno</b>: ".$_SESSION['drewno'];
-	echo " | <b>Kamień</b>: ".$_SESSION['kamien'];
-	echo " | <b>Zboże</b>: ".$_SESSION['zboze']."</p>";
-	
-	echo "<p><b>E-mail</b>: ".$_SESSION['email'];
-	echo "<br /><b>Data wygaśnięcia premium</b>: ".$_SESSION['dnipremium']."</p>";
-	
+	<div class="wrapper">
+		<div class="nav">
+			<ol>
+				<li><a href="gra.php">Strona główna</a></li>
+				<li><a href="#">Twoje konto</a>
+					<ul>
+						<li><a href="#">Zmiana hasła</a></li>
+						<li><a href="#">Zmiana e-mail</a></li>
+						<li><a href="#">Usun konto</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Strefa premium</a>
+					<ul>
+						<li><a href="#">Twoje premium</a></li>
+						<li><a href="#">Doladuj konto</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Kontakt</a>
+				</li>
+				<li><a href="logout.php">Wyloguj</a></li>
+			</ol>
 		
-	$dataczas = new DateTime();
+		</div>
 	
-	echo "Data i czas serwera: ".$dataczas->format('Y-m-d H:i:s')."<br>";
-	
-	$koniec = DateTime::createFromFormat('Y-m-d H:i:s', $_SESSION['dnipremium']);
-	
-	$roznica = $dataczas->diff($koniec);
-	
-	if($dataczas<$koniec)
-	echo "Pozostało premium: ".$roznica->format('%d dni, %h godz, %i min, %s sek');
-	else
-	echo "Premium nieaktywne od: ".$roznica->format('%d dni, %h godz, %i min, %s sek');	
-	
-?>
-<br/>
 
-<?=$_SESSION['drewno'];?>
+<br/>
 
 </body>
 </html>

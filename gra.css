@@ -4,6 +4,14 @@ body
 	background-image:url("tlogra.png");
 	background-repeat: no-repeat;
 	background-color:#D7C8B4;
+	
+}
+.logo
+{
+	width: 450px;
+	font-size: 48px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #logo
 {
@@ -19,17 +27,19 @@ body
 }
 #login
 {
-	margin-top:10px;
-	font-size:40px;
-	position:fixed;
-	left:35%;
+	color:white;
+	font-size:22px;
 	font-weight:bold;
+	width:100%;
+	background-color:black;
+	margin-top:-5px;
+	
 }
 
 a
 {
 	color:#fff;
-	font-size:20px;
+	font-size:15px;
 	text-decoration:none;
 	letter-spacing:2px;
 	
@@ -38,6 +48,103 @@ a:hover
 {
 	text-decoration:none;
 	color:darkblue;
+}
+.nav
+{ 
+	width: 100%;
+	padding: 10px 0;
+	background-color: #c34f4f;
+	text-align: center;
+	border-top: 1px solid #751b1b;
+	border-bottom: 1px solid #751b1b;
+	
+}
+.wrapper
+{
+	width: 100%;
+
+}
+
+.header
+{
+	width:100%;
+	padding: 40px 0;
+	
+}
+ol
+{
+	margin:0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+	
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed #751b1b;
+}
+
+ol > li:hover
+{
+	background-color: #cf6969;
+}
+
+ol > li:hover > a
+{
+	color: #451717;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#cf6969;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #751b1b;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #c34f4f;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #451717;
 }
 
 
