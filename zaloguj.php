@@ -37,6 +37,7 @@
 					$_SESSION['zalogowany'] = true;
 					$_SESSION['id'] = $wiersz['id'];
 					$_SESSION['user'] = $wiersz['user'];
+					$_SESSION['zloto'] = $wiersz['zloto'];
 					$_SESSION['drewno'] = $wiersz['drewno'];
 					$_SESSION['kamien'] = $wiersz['kamien'];
 					$_SESSION['zboze'] = $wiersz['zboze'];

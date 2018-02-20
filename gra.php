@@ -42,7 +42,20 @@
 		</ol>	
 	</div>
 	<div class="gierka">
-		Tutaj bedzie gra
+		Tutaj bedzie twoj zamek
+	</div>
+	<div class="zasoby">
+		<center><h4>ZASOBY<h4></center>
+		Zloto : <?=$_SESSION['zloto']?>
+		Drewno : <?=$_SESSION['drewno']?>
+		Kamien : <?=$_SESSION['kamien']?>
+		Zboze : <?=$_SESSION['zboze']?> 
+	</div>
+	<div class="budynki">
+		Tutaj beda mozliwe budynki i wojsko
+	</div>
+	<div class="jednostki">
+		Tutaj beda mozliwe wojsko
 	</div>
 	
 <script>
