@@ -28,7 +28,6 @@
 					<li><a href="#">Zmiana hasła</a></li>
 					<li><a href="#">Zmiana e-mail</a></li>
 					<li><a href="#">Usun konto</a></li>
-				</ul>
 			</li>
 			<li><a href="#">Strefa premium</a>
 				<ul>
@@ -42,11 +41,10 @@
 		</ol>	
 	</div>
 	<div class="zasoby">
-		<center>TWOJE ZASOBY</br>
 			Zloto  <?=$_SESSION['zloto']?>
 			Drewno  <?=$_SESSION['drewno']?>
 			Kamien  <?=$_SESSION['kamien']?>
-			Zboze <?=$_SESSION['zboze']?></center>
+			Zboze <?=$_SESSION['zboze']?>
 	</div>
 	<div class="gierka">
 		Tutaj bedzie twoj zamek
