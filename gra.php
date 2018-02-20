@@ -19,38 +19,48 @@
 	<link rel="stylesheet" href="gra.css">
 </head>
 
-<body>
-	<div id="login">
-	
-		<center>Witaj <?=$_SESSION['user'];?><a href="logout.php">	</a></center>
-	
+<body>	
+	<div id="navbar">
+		<ol>
+			<li><a href="gra.php">Strona główna</a></li>
+			<li><a href="#">Twoje konto</a>
+				<ul>
+					<li><a href="#">Zmiana hasła</a></li>
+					<li><a href="#">Zmiana e-mail</a></li>
+					<li><a href="#">Usun konto</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Strefa premium</a>
+				<ul>
+					<li><a href="#">Twoje premium</a></li>
+					<li><a href="#">Doladuj konto</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Kontakt</a>
+			</li>
+			<li><a href="logout.php">Wyloguj</a></li>
+		</ol>	
 	</div>
-	<div class="wrapper">
-		<div class="nav">
-			<ol>
-				<li><a href="gra.php">Strona główna</a></li>
-				<li><a href="#">Twoje konto</a>
-					<ul>
-						<li><a href="#">Zmiana hasła</a></li>
-						<li><a href="#">Zmiana e-mail</a></li>
-						<li><a href="#">Usun konto</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Strefa premium</a>
-					<ul>
-						<li><a href="#">Twoje premium</a></li>
-						<li><a href="#">Doladuj konto</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Kontakt</a>
-				</li>
-				<li><a href="logout.php">Wyloguj</a></li>
-			</ol>
-		
-		</div>
+	<div class="gierka">
+		Tutaj bedzie gra
+	</div>
+	
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 	
 
-<br/>
 
 </body>
 </html>

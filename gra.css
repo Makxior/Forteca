@@ -6,40 +6,10 @@ body
 	background-color:#D7C8B4;
 	
 }
-.logo
-{
-	width: 450px;
-	font-size: 48px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#logo
-{
-
-	margin-top:20px;	
-	text-align:center;
-	min-height:150px;
-	opacity:0.8;
-}
-#logo:hover
-{
-	opacity:1;
-}
-#login
-{
-	color:white;
-	font-size:22px;
-	font-weight:bold;
-	width:100%;
-	background-color:black;
-	margin-top:-5px;
-	
-}
-
 a
 {
 	color:#fff;
-	font-size:15px;
+	font-size:19px;
 	text-decoration:none;
 	letter-spacing:2px;
 	
@@ -49,40 +19,24 @@ a:hover
 	text-decoration:none;
 	color:darkblue;
 }
-.nav
+#navbar
 { 
 	width: 100%;
-	padding: 10px 0;
-	background-color: #c34f4f;
+	height:42px;
+	background-color: #333333;
 	text-align: center;
-	border-top: 1px solid #751b1b;
-	border-bottom: 1px solid #751b1b;
-	
-}
-.wrapper
-{
-	width: 100%;
-
-}
-
-.header
-{
-	width:100%;
-	padding: 40px 0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 	
 }
 ol
 {
-	margin:0;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0;
 	list-style-type: none;
-	font-size: 18px;
-	height: 35px;
+	font-size: 19px;
 	line-height: 200%;
-	display: inline-block;
-	
 }
 
 ol a
@@ -95,24 +49,26 @@ ol a
 ol > li
 {
 	float: left;
-	width: 150px;
+	width: 170px;
 	height: 40px;
-	border-right: 1px dashed #751b1b;
+	border-right: 3px solid black;
 }
 
 ol > li:first-child
 {
-	border-left: 1px dashed #751b1b;
+	border-left: 3px solid black;
 }
 
 ol > li:hover
 {
-	background-color: #cf6969;
+	/*kolor tla napisu po tym jak najedziesz */
+	background-color: #3333d3;
 }
 
 ol > li:hover > a
 {
-	color: #451717;
+	/*kolor napisu po tym jak najedziesz */
+	color: black;
 }
 
 ol > li > ul
@@ -120,7 +76,7 @@ ol > li > ul
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	height: 40px;
+	height: 30px;
 	display: none;
 }
 
@@ -131,20 +87,44 @@ ol > li:hover > ul
 
 ol > li > ul > li
 {
-	background-color:#cf6969;
+	background-color:#aaaaaa;
 	position: relative;
 	z-index: 100;
-	border-top: 1px dashed #751b1b;
+	border-top: 2px solid black;
+	border-radius: 2px;
 }
 
 ol > li > ul > li:hover
 {
-	background-color: #c34f4f;
+	background-color: #4f4fd3;
 }
 
 ol > li > ul > li:hover > a
 {
 	color: #451717;
+}
+.gierka
+{
+	margin-left:80px;
+	margin-top:50px;
+	background-image:url("zamek.png");
+	width:800px;
+	height:700px;
+	border: 5px solid black;
+}
+.content 
+{
+  padding: 16px;
+}
+.sticky 
+{
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content
+{
+  padding-top: 60px;
 }
 
 
