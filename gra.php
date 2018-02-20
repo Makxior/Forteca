@@ -41,18 +41,19 @@
 			<li><a href="logout.php">Wyloguj</a></li>
 		</ol>	
 	</div>
+	<div class="zasoby">
+		<center>TWOJE ZASOBY</br>
+			Zloto  <?=$_SESSION['zloto']?>
+			Drewno  <?=$_SESSION['drewno']?>
+			Kamien  <?=$_SESSION['kamien']?>
+			Zboze <?=$_SESSION['zboze']?></center>
+	</div>
 	<div class="gierka">
 		Tutaj bedzie twoj zamek
 	</div>
-	<div class="zasoby">
-		<center><h4>ZASOBY<h4></center>
-		Zloto : <?=$_SESSION['zloto']?>
-		Drewno : <?=$_SESSION['drewno']?>
-		Kamien : <?=$_SESSION['kamien']?>
-		Zboze : <?=$_SESSION['zboze']?> 
-	</div>
+	
 	<div class="budynki">
-		Tutaj beda mozliwe budynki i wojsko
+		Tutaj beda mozliwe budynki 
 	</div>
 	<div class="jednostki">
 		Tutaj beda mozliwe wojsko
