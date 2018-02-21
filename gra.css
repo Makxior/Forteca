@@ -114,7 +114,7 @@ ol > li > ul > li:hover > a
 }
 .zasoby
 {
-	font-size:24px;
+	font-size:20px;
 	background-color:#e4e4e4;
 	border: 5px solid black;
 	width:500px;
@@ -166,22 +166,22 @@ ul
 #zloto
 {
 	display: inline-block;
-	background-color:#FFEE11;
+	margin-left:8px;
 }
 #drewno
 {
 	display: inline-block;
-	background-color:#CD853F;
+	margin-left:8px;
 }
 #kamien
 {
 	display: inline-block;
-	background-color:lightgrey;
+	margin-left:8px;
 }
 #zboze
 {
 	display: inline-block;
-	background-color:yellow;
+	margin-left:8px;
 }
 #domek
 {

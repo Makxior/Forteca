@@ -42,10 +42,10 @@
 		</ol>	
 	</div>
 	<div class="zasoby">
-			<div id ="zloto">Zloto  <?=$_SESSION['zloto']?></div>
-			<div id ="drewno">Drewno  <?=$_SESSION['drewno']?></div>
-			<div id ="kamien">Kamien  <?=$_SESSION['kamien']?></div>
-			<div id ="zboze">Zboze <?=$_SESSION['zboze']?></div>
+			<div id ="zloto">Zloto <strong><?=$_SESSION['zloto']?></strong></div>
+			<div id ="drewno">Drewno <strong><?=$_SESSION['drewno']?></strong></div>
+			<div id ="kamien">Kamien <strong><?=$_SESSION['kamien']?></strong></div>
+			<div id ="zboze">Zboze <strong><?=$_SESSION['zboze']?></strong></div>
 	</div>
 	<div class="gierka">
 		Tutaj bedzie twoj zamek
