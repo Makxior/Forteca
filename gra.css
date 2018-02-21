@@ -114,19 +114,19 @@ ol > li > ul > li:hover > a
 }
 .zasoby
 {
-	font-size:20px;
+	font-size:24px;
 	background-color:#e4e4e4;
-	width:100%px;
 	border: 5px solid black;
+	width:500px;
 }
 .budynki
 {
 	margin-top:50px;
 	margin-left:80px;
 	margin-bottom:20px;
-	background-color:gray;
+	background-color:#fff;
 	width:400px;
-	height:200px;
+	height:260px;
 	border: 5px solid black;
 	float:left;
 }
@@ -134,7 +134,7 @@ ol > li > ul > li:hover > a
 {
 	margin-left:80px;
 	margin-bottom:20px;
-	background-color:gray;
+	background-color:#fff;
 	width:400px;
 	height:200px;
 	border: 5px solid black;
@@ -162,6 +162,44 @@ ul
 	font-size: 19px;
 	line-height: 200%;
 	position: relative;
+}
+#zloto
+{
+	display: inline-block;
+	background-color:#FFEE11;
+}
+#drewno
+{
+	display: inline-block;
+	background-color:#CD853F;
+}
+#kamien
+{
+	display: inline-block;
+	background-color:lightgrey;
+}
+#zboze
+{
+	display: inline-block;
+	background-color:yellow;
+}
+#domek
+{
+	width:60px;
+	height:65px;
+	background-image:url("domek.png");
+	margin-left:8px;
+}
+#domekOpis
+{
+	width:60px;
+	height:65px;
+}
+#obramowanie
+{
+	width:90px;
+	height:100px;
+	border:solid 2px black;
 }
 
 

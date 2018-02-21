@@ -28,6 +28,7 @@
 					<li><a href="#">Zmiana hasła</a></li>
 					<li><a href="#">Zmiana e-mail</a></li>
 					<li><a href="#">Usun konto</a></li>
+				</ul>
 			</li>
 			<li><a href="#">Strefa premium</a>
 				<ul>
@@ -41,17 +42,17 @@
 		</ol>	
 	</div>
 	<div class="zasoby">
-			Zloto  <?=$_SESSION['zloto']?>
-			Drewno  <?=$_SESSION['drewno']?>
-			Kamien  <?=$_SESSION['kamien']?>
-			Zboze <?=$_SESSION['zboze']?>
+			<div id ="zloto">Zloto  <?=$_SESSION['zloto']?></div>
+			<div id ="drewno">Drewno  <?=$_SESSION['drewno']?></div>
+			<div id ="kamien">Kamien  <?=$_SESSION['kamien']?></div>
+			<div id ="zboze">Zboze <?=$_SESSION['zboze']?></div>
 	</div>
 	<div class="gierka">
 		Tutaj bedzie twoj zamek
 	</div>
 	
 	<div class="budynki">
-		Tutaj beda mozliwe budynki 
+		<div id="obramowanie"><div id="domek"></div><div id="domekOpis">Drewno[50]</div> </div>
 	</div>
 	<div class="jednostki">
 		Tutaj beda mozliwe wojsko
