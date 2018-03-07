@@ -103,9 +103,9 @@ ol > li > ul > li:hover > a
 }
 .gierka
 {
-	margin-left:80px;
-	margin-top:50px;
-	margin-bottom:10px;
+	margin-left:8%;
+	margin-top:4%;
+	margin-bottom:2%;
 	background-image:url("zamek.png");
 	width:680px;
 	height:480px;
@@ -121,9 +121,9 @@ ol > li > ul > li:hover > a
 }
 .budynki
 {
-	margin-top:50px;
-	margin-left:80px;
-	margin-bottom:20px;
+	margin-top:4%;
+	margin-left:6%;
+	margin-bottom:2%;
 	background-color:#fff;
 	width:400px;
 	height:260px;
@@ -132,11 +132,11 @@ ol > li > ul > li:hover > a
 }
 .jednostki
 {
-	margin-left:80px;
-	margin-bottom:20px;
+	margin-left:6%;
+	margin-bottom:2%;
 	background-color:#fff;
 	width:400px;
-	height:200px;
+	height:190px;
 	border: 5px solid black;
 	float:left;
 }

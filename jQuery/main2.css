@@ -1,0 +1,28 @@
+body
+{
+	background-color:lightgray;
+}
+header
+{
+	background-color:gray;
+	text-align:center;
+	border-bottom: 5px solid black;
+}
+#container
+{
+	background-color:#ddd;
+}
+#box{
+	background:#333;
+	color:#fff;
+	width:500px;
+	height:90px;
+	padding:40px;
+	text-align:center;
+}
+#box2{
+	background:red;
+	width:100px;
+	height:100px;
+	position:relative;
+}

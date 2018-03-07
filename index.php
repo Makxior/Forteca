@@ -35,7 +35,15 @@
 			Tutaj beda linki do roznych ciekawych rzeczy, ale to pozniej xd
 			</div>
 			<div id="newsy" >
-			Obecnie trwaja prace nad gra 
+			Obecnie trwaja prace nad gra
+			<div id="nauka">
+				<h2>Spis nauki<h2>
+				<ul style="color:black">
+					<li><a style="color:black" href="jQuery/jQuery.html">Jquery 1</a></li>
+					<li><a style="color:black" href="jQuery/jQuery2.html">Jquery 2</a></li>
+					<li><a style="color:black" href="jQuery/jQuery3.html">Jquery 3</a></li>
+				</ul>
+			</div>
 			</div>
 			<div id="logowanie" class ="jumbotron" >
 				<h4>LOGOWANIE</h4> 
