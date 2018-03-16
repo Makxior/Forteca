@@ -106,7 +106,6 @@ ol > li > ul > li:hover > a
 	margin-left:8%;
 	margin-top:4%;
 	margin-bottom:2%;
-	background-image:url("zamek.png");
 	width:680px;
 	height:480px;
 	border: 10px solid black;
@@ -187,7 +186,6 @@ ul
 {
 	width:60px;
 	height:65px;
-	background-image:url("domek.png");
 	margin-left:8px;
 }
 #domekOpis
