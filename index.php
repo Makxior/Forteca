@@ -36,6 +36,9 @@
 			</div>
 			<div id="newsy" >
 			Obecnie trwaja prace nad gra
+			<a href="Waz.html" style="display:block; color:black">Zagraj w super gierke</a>
+			<a href="2strona.html" style="display:block">Wejdz na nasza druga strone</a>
+
 			</div>
 			<div id="logowanie" class ="jumbotron" >
 				<h4>LOGOWANIE</h4> 
